@@ -1,0 +1,52 @@
+h2 {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  padding-top: 30px;
+  color: brown;
+}
+
+form {
+  display: table;
+  padding: 30px;
+  border: 2px dotted #ff80ff;
+  background-color: #80ff80;
+  margin: 50px auto;
+}
+
+.tableRow {
+  display: table-row;
+}
+
+.tableRow p {
+  display: table-cell;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.tableRow p:first-child {
+  text-align: right;
+}
+
+.heading {
+  font-weight: bold;
+}
+
+input,
+textarea,
+select {
+  background-color: aliceblue;
+}
+
+.btn {
+  padding: 15px;
+  background-color: #ff8000;
+  border-radius: 5px;
+  border: 1px solid aliceblue;
+}
+
+.btn:hover {
+  background-color: sandybrown;
+  cursor: pointer;
+  color: #fff;
+}
